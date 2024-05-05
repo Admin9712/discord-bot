@@ -8,7 +8,7 @@ const { ChatInputCommandInteraction, SlashCommandBuilder } = require("discord.js
      *
      * @param {ChatInputCommandInteraction} interaction
      */
-    execute(interaction) {
-      interaction.reply({ content: "Pong!!", ephemeral: true });
+    async execute(interaction, client) {
+      interaction.reply({ content: `Pong! ${client.ws.ping}Ms`, ephemeral: true });
     },
   };
