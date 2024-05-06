@@ -6,7 +6,7 @@ module.exports = {
     execute(client) {
       console.log("El cliente ya esta listo");
 
-      client.user.setActivity("Spain Community en FiveM");
+      client.user.setActivity("Jugan2");
 
       loadCommands(client);
     },
