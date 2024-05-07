@@ -1,4 +1,4 @@
-# discord-bot
+# BOT DE DISCORD V14
 Discord bot with slash commands
 
 
