@@ -3,7 +3,7 @@ const { ChatInputCommandInteraction, SlashCommandBuilder, EmbedBuilder } = requi
   module.exports = {
     data: new SlashCommandBuilder()
       .setName("avatar")
-      .setDescription("Te dare el avatar de el que hayas mencionado!")
+      .setDescription("Te dare el avatar de el que hayas mencionado o el tuyo!")
       .addUserOption((option) => option.setName(`usuario`).setDescription(`Usuario del cual quieres conseguir el avatar.`)),
     /**
      *
