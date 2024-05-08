@@ -14,7 +14,7 @@ const { ChatInputCommandInteraction, SlashCommandBuilder, EmbedBuilder } = requi
         const usuario = interaction.options.getUser(`usuario`) || interaction.user;
 
         const embed = new EmbedBuilder()
-        .setTitle(`Avatar de ${usuario.username }`)
+        .setTitle(`Avatar de ${usuario.username}`)
         .setImage(usuario.displayAvatarURL({size: 1024, extension: "png"}))
         .setColor("#00FF00")
         .setTimestamp()
